@@ -50,7 +50,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem "capistrano", "~> 3.11", require: false
   gem 'capistrano-rbenv', '~> 2.1'
-
+  gem 'capistrano3-puma', github: "seuros/capistrano-puma"
 end
 
 group :test do
